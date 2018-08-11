@@ -2,7 +2,7 @@ const bool = (x, y, p) => { if(p) { return y; } else { return x; } };
 
 const runTimer = (time) => {
   const t = time.fromNow();
-  const after = "ISLAND IS A-HAPPENING";
+  const after = "You'll have to speak up, I'm on an island";
   const before = `Island ${t}! Get your tiles and beer ready!`;
   const now = moment();
   const duration = moment.duration(time.diff(now));
